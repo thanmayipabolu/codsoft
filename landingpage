@@ -1,0 +1,83 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <title>Vacations Booking</title>
+        <meta charset="UTF_8">
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            body{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-align:center;
+            }
+            h1{
+                font-size: 80px;
+                color:pink(120, 120, 120);
+            }
+    
+            header h1{
+                background:rgb(300, 170, 90);
+                padding:20px;
+            }
+            .main-header h1{
+                color:rgb(245, 245, 245);
+            }
+            nav{
+            background-color: rgb(211, 211, 211);
+            padding:10px;
+           }
+           nav a{
+           text-align:center;
+            display:inline-block;
+           text-decoration:None;
+           padding:6px 20px;
+           color:rgb(0, 0, 0);
+           font-size:18px;
+           }
+    
+        a:hover{
+        color:rgb(0, 255, 21);
+         background-color:rgb(89, 1, 255);
+        }
+        button{
+            background-color:Black;
+            font:200;
+            color:whitesmoke;
+            border:40px;
+            padding:10px 25px;
+        }
+        
+        </style>
+
+    </head>
+    <body>
+       <header>
+       <h1>Vacation Bookings</h1>
+       </header>
+       <nav>
+            <a href="">Home</a>
+            <a href="">Places</a>
+            <a href="">Packages</a>
+            <a href="">Gallery</a>
+            <a href="">Contact</a>
+       </nav>
+       <section class="home-section">
+        <h1>Enjoy the holidays</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dignissimos aliquam quaerat voluptatem, a soluta ex laboriosam ullam vero nisi placeat ea architecto! Impedit velit voluptatem, beatae consequatur fugit unde mollitia nobis dolorem eligendi ad nam quam est officia sequi!<br>
+       <button class="button">Book me</button>   
+    </section>
+    <section class="places-section">
+        <h1>Places to visit</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dignissimos aliquam quaerat voluptatem, a soluta ex laboriosam ullam vero nisi placeat ea architecto! Impedit velit voluptatem, beatae consequatur fugit unde mollitia nobis dolorem eligendi ad nam quam est officia sequi!<br>
+        <div>
+        <img src="https://images.pexels.com/photos/3637662/pexels-photo-3637662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sydney" width="200px" height="300px" title="Sydney"> 
+        <img src="https://images.pexels.com/photos/2239260/pexels-photo-2239260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Germany" width="200px" height="300px" title="Germany"> 
+        <img src="https://tse2.mm.bing.net/th?id=OIP.YbSfNrF-GgygmzUAkCkhigHaFG&pid=Api&P=0&h=180" alt="India" width="200px" height="300px" title="India">
+        <img  src="https://tse4.mm.bing.net/th?id=OIP.f2ztAuzhMnHGyag6Q61PjwHaGC&pid=Api&P=0&h=180 " alt="Africa" width="200px" height="300px" title="Africa">
+        </div>
+    </section>
+    </body>
+
+</html>
